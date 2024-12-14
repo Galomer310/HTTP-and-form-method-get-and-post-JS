@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Exercise 1</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message"></textarea><br><br>
+        
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
+
+
+<!-- When you click "Send," the form data is sent using the GET method. This appends the form data as query parameters in the URL. -->
+ <!-- http://localhost:8000/?name=John&message=Hello+World -->
+
+ <!-- When you click "Send," the form data is sent using the POST method. This sends the data in the body of the HTTP request instead of the URL. -->
